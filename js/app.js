@@ -1,4 +1,5 @@
 /////--extra memory cost--/////
+
 const memory = document.getElementById('memory'); 
 const unified = document.getElementById('unified'); 
 let memoryCost = document.getElementById('extra-memory-cost').innerText; 
@@ -13,6 +14,7 @@ unified.addEventListener('click', function() {
 })
 
 /////--extra storage cost--/////
+
 const freeStorage = document.getElementById('free-storage');
 const getStorage = document.getElementById('get-storage');
 const extraStorage = document.getElementById('extra-storage');
@@ -35,6 +37,7 @@ extraStorage.addEventListener('click', function(){
 });
 
 /////--delivery charge--/////
+
 const freeDelivery = document.getElementById('free-delivery');
 const deliveryCost = document.getElementById('delivery-cost');
 
@@ -52,6 +55,7 @@ deliveryCost.addEventListener('click', function(){
 });
 
 /////--update total--/////
+
 function updateTotal() {
     document.getElementById('extra-memory-cost').innerText = memoryCostNumber;
     document.getElementById('extra-storage-cost').innerText = extraStorageCostNumber;
